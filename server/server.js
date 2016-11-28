@@ -1,9 +1,19 @@
 'use strict';
 
+var bodyParser = require('body-parser');
 var loopback = require('loopback');
 var boot = require('loopback-boot');
+var path = require('path');
 
 var app = module.exports = loopback();
+
+app.middleware('initial', bodyParser.urlencoded({ extended: true }));
+
+boot(app, __dirname);
+app.set('view engine', 'ejs');
+app.set('json spaces', 2);
+
+app.set('views', path.resolve(__dirname, 'views'));
 
 app.start = function() {
   // start the web server

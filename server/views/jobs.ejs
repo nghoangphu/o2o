@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jobs for user</title>
+  <head>
+  <body>
+    <% typeof username %>
+    <h1> Jobs <% if (typeof username !== 'undefined') { %> Hello  <%= username %><% } %> </h1>
+    <a href="/api/users/<%=userid%>/jobs?access_token=<%=accessToken%>">List jobs</a> <br>
+    <a href="/logout<% if (typeof accessToken !== 'undefined'){ %>?access_token=<%= accessToken %><% } %>">Logout</a>
+</html>
