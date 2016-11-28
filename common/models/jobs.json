@@ -2,9 +2,6 @@
   "name": "Jobs",
   "base": "PersistedModel",
   "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
   "properties": {
     "serviceName": {
       "type": "string",
@@ -65,5 +62,5 @@
     }
   },
   "acls": [],
-  "methods": {}
+  "methods": []
 }
