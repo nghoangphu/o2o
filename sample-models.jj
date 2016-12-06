@@ -1,0 +1,52 @@
+var async = require('async');
+module.exports = function(app) {
+ 
+  var Role = app.models.Role;
+  var RoleMapping = app.models.RoleMapping;
+  var mysqlDs = app.dataSources.mysqlDs;
+/*
+  async.parallel({
+    users: async.apply(createUsers),
+  }, function(err, results) {
+    if (err) {console.log('Error create users'); throw err;}
+    createJobs(results.users, function(err) {
+      if (err) {console.log('Error create jobs'); throw err;}
+      console.log('> models create successfully');
+    });
+  });
+*/
+  createUsers(function(err, result) {
+    if (err) throw err;
+    createJobs(result, function(err) {
+      if (err) throw err;
+      console.log('> models create successfully');
+    });
+  });
+
+  function createUsers(cb) {
+//    mysqlDs.automigrate('user', function(err) {
+//      if (err) return cb(err);
+      var User = app.models.user;
+      User.create([
+	      {username: 'Hoang Phu', email: 'nghoangphu@gmail.com', password: 'hoangphu'},
+	      {username: 'Phuong Lan', email: 'phuongzlan@gmail.com', password: 'phuonglan'}
+      ], cb);
+//    });
+  }
+  
+  function createJobs(users, cb) {
+//    mysqlDs.automigrate('Jobs', function(err) {
+//      if (err) return cb(err);
+      var Job = app.models.Jobs;
+      Job.create([
+        {
+          serviceName: 'Service name for Phu',
+          serverFirstName: 'Server first name for Phu',
+          ownerId: users[0].id
+        },
+        {serviceName: 'Service name 1 for Lan', serverFirstName: 'Server first name 1 for Lan', ownerId: users[1].id},
+        {serviceName: 'Service name 2 for Lan', serverFirstName: 'Server first name 2 for Lan', ownerId: users[1].id}
+      ], cb);
+//    });
+  }
+}
