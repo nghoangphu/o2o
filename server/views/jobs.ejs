@@ -5,8 +5,16 @@
     <title>Jobs for user</title>
   <head>
   <body>
-    <% typeof username %>
-    <h1> Jobs <% if (typeof username !== 'undefined') { %> Hello  <%= username %><% } %> </h1>
+    <h1> Jobs <% if (typeof username !== 'undefined') { %> Hello  <%= username %>  </h1>
     <a href="/api/users/<%=userid%>/jobs?access_token=<%=accessToken%>">List jobs</a> <br>
-    <a href="/logout<% if (typeof accessToken !== 'undefined'){ %>?access_token=<%= accessToken %><% } %>">Logout</a>
+    <a href="/logout<% if (typeof accessToken !== 'undefined'){ %>?access_token=<%= accessToken %><% } %>">
+      Logout
+    </a> <br>
+    Create new job: <br>
+    <form action='createjob?userid=<%= userid %>' method='post'>
+      Service: <input type='text' name='serviceName'/> <br>
+      Server First Name: <input type='text' name='serverFirstName'/> <br>
+      <input type='submit' value='Submit'/>
+    </form>
+  <% } %>
 </html>

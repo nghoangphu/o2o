@@ -34,6 +34,20 @@ module.exports = function(app) {
         });
       });
     });
+  
+  router.post('/createjob', function(req, res) {
+    var serviceName = req.body.serviceName;
+    var serverFirstName = req.body.serverFirstName;
+    var ownerId = req.query['userid'];
+    //var accessToken = token.id;
+    app.models.Jobs.create({serviceName: serviceName, serverFirstName: serverFirstName, ownerId: ownerId},
+      function(err, job) {
+        if (err) throw err;
+        console.log('Create job successfully');
+        res.redirect('/jobs');
+      }
+    );
+  });
 
   router.get('/logout', function(req, res) {
     var AccessToken = app.models.AccessToken;

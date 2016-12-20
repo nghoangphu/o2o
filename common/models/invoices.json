@@ -1,0 +1,68 @@
+{
+  "name": "invoices",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "invoiceNumber": {
+      "type": "number",
+      "required": true
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "po": {
+      "type": "string"
+    },
+    "wo": {
+      "type": "string"
+    },
+    "warranty": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "labor": {
+      "type": "string"
+    },
+    "parts": {
+      "type": "string"
+    },
+    "supplies": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "jobs": {
+      "type": "hasMany",
+      "model": "Jobs",
+      "foreignKey": ""
+    },
+    "contacts": {
+      "type": "hasMany",
+      "model": "contacts",
+      "foreignKey": ""
+    },
+    "services": {
+      "type": "hasMany",
+      "model": "services",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

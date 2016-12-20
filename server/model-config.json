@@ -34,5 +34,17 @@
   "user": {
     "dataSource": "mysqlDs",
     "public": true
+  },
+  "invoices": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "services": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "contacts": {
+    "dataSource": "mysqlDs",
+    "public": true
   }
 }

@@ -1,0 +1,41 @@
+{
+  "name": "contacts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "street": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "street2": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
