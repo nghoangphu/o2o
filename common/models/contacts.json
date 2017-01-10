@@ -35,7 +35,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "phoneNumbers": {
+      "type": "hasMany",
+      "model": "PhoneNumber",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

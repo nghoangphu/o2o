@@ -28,23 +28,27 @@
     "public": false
   },
   "Jobs": {
-    "dataSource": "mysqlDs",
+    "dataSource": "db",
     "public": true
   },
   "user": {
-    "dataSource": "mysqlDs",
+    "dataSource": "db",
     "public": true
   },
   "invoices": {
-    "dataSource": "mysqlDs",
+    "dataSource": "db",
     "public": true
   },
   "services": {
-    "dataSource": "mysqlDs",
+    "dataSource": "db",
     "public": true
   },
   "contacts": {
-    "dataSource": "mysqlDs",
+    "dataSource": "db",
+    "public": true
+  },
+  "PhoneNumber": {
+    "dataSource": "db",
     "public": true
   }
 }

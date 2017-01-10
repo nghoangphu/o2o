@@ -1,24 +1,17 @@
 {
-  "name": "services",
+  "name": "PhoneNumber",
+  "plural": "PhoneNumbers",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "cost": {
-      "type": "number",
-      "required": true
-    },
-    "category": {
+    "phoneNumber": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
+    "phoneNumberType": {
+      "type": "number"
     }
   },
   "validations": [],
