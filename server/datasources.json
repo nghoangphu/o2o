@@ -12,5 +12,11 @@
     "name": "mysqlDs",
     "user": "o2o",
     "connector": "mysql"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage"
   }
 }

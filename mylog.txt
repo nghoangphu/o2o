@@ -1,0 +1,42 @@
+Web server listening at: http://0.0.0.0:3000
+Browse your REST API at http://0.0.0.0:3000/explorer
+Created user: { username: 'Hoang Phu',
+  email: 'nghoangphu@gmail.com',
+  password: '$2a$10$3LFc8YVuyWiZ12XlFrNXtOoss9izKB5iYta3iaaKc9/ZHZj266rCC',
+  id: 1 }
+Created user: { username: 'Phuong Lan',
+  email: 'phuongzlan@gmail.com',
+  password: '$2a$10$yuaPLQo06bLhOvyjVqHVZeYC6Q.A14cw3Trk3RE0gZDVxCHVixKf2',
+  id: 2 }
+Created user: { username: 'Hoang Phu',
+  email: 'nghoangphu@gmail.com',
+  password: '$2a$10$9ASZKXumKU6XUXBJb0Eu.OMWKDwYaOQxYwMur/NIqmK6S8fYeIJIS',
+  id: 1 }
+Created user: { username: 'Phuong Lan',
+  email: 'phuongzlan@gmail.com',
+  password: '$2a$10$tsOTn37ovqrdcAFpYVkG1eskC80KiYW1RBF5gjzrKiYt8hWumfdJC',
+  id: 2 }
+Create job:  { serviceName: 'Service name for Phu',
+  serverFirstName: 'Server first name for Phu',
+  ownerId: 1,
+  id: 1 }
+Create job:  [ { serviceName: 'Service name 1 for Lan',
+    serverFirstName: 'Server first name 1 for Lan',
+    ownerId: 2,
+    id: 2 },
+  { serviceName: 'Service name 2 for Lan',
+    serverFirstName: 'Server first name 2 for Lan',
+    ownerId: 2,
+    id: 3 } ]
+Create job:  { serviceName: 'Service name for Phu',
+  serverFirstName: 'Server first name for Phu',
+  ownerId: 1,
+  id: 1 }
+Create job:  [ { serviceName: 'Service name 1 for Lan',
+    serverFirstName: 'Server first name 1 for Lan',
+    ownerId: 2,
+    id: 2 },
+  { serviceName: 'Service name 2 for Lan',
+    serverFirstName: 'Server first name 2 for Lan',
+    ownerId: 2,
+    id: 3 } ]

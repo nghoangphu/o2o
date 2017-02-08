@@ -16,8 +16,8 @@
     "serverMidleName": {
       "type": "string"
     },
-    "timeEstimate":{
-      "type":"number"
+    "timeEstimate": {
+      "type": "number"
     },
     "startDate": {
       "type": "date"
@@ -32,6 +32,12 @@
       "type": "string"
     },
     "phoneNumber": {
+      "type": "string"
+    },
+    "faxNumber": {
+      "type": "string"
+    },
+    "email": {
       "type": "string"
     },
     "streetAddress": {
@@ -74,7 +80,7 @@
       "accessType": "*",
       "principalType": "ROLE",
       "principalId": "$everyone",
-      "permission": "DENY"
+      "permission": "ALLOW"
     },
     {
       "accessType": "WRITE",

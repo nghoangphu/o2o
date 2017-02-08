@@ -50,5 +50,9 @@
   "PhoneNumber": {
     "dataSource": "db",
     "public": true
+  },
+  "location": {
+    "dataSource": "db",
+    "public": true
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "user",
   "base": "User",
+  "plural":"users",
   "idInjection": true,
   "properties": {},
   "validations": [],
@@ -9,9 +10,20 @@
       "type": "hasMany",
       "model": "Jobs",
       "foreignKey": "ownerId"
+    },
+    "locations": {
+      "type": "hasMany",
+      "model": "location",
+      "foreignKey": ""
     }
   },
   "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "*"
+    },
     {
       "principalType": "ROLE",
       "principalId": "$owner",

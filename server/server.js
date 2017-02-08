@@ -1,5 +1,7 @@
 'use strict';
 
+var atatus = require('atatus-node');
+atatus.start({apiKey: "8469fcef80b24a0f8572f493bef8b7bf"});
 var bodyParser = require('body-parser');
 var loopback = require('loopback');
 var boot = require('loopback-boot');
