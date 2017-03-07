@@ -43,6 +43,18 @@
     },
     "supplies": {
       "type": "string"
+    },
+    "hourlyRate": {
+      "type": "number"
+    },
+    "hour": {
+      "type": "number"
+    },
+    "tripCharge": {
+      "type": "number"
+    },
+    "idQB": {
+      "type": "string"
     }
   },
   "validations": [],

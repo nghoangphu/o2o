@@ -17,9 +17,13 @@
     "loopback-component-explorer": "^2.4.0",
     "loopback-component-storage": "^3.0.0",
     "loopback-connector-mysql": "^2.4.0",
+    "loopback-connector-sqlite3": "^1.2.0",
     "loopback-datasource-juggler": "^2.39.0",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^1.0.1"
+    "sqlite3": "^3.1.8",
+    "strong-agent": "^2.1.2",
+    "strong-error-handler": "^1.0.1",
+    "strong-pm": "^5.2.4"
   },
   "devDependencies": {
     "eslint": "^2.13.1",

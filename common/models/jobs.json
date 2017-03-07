@@ -60,6 +60,12 @@
     },
     "jobStatus": {
       "type": "number"
+    },
+    "isInvoice": {
+        "type": "Boolean"
+    },
+    "pos": {
+        "type": "GeoPoint"
     }
   },
   "validations": [],

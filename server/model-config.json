@@ -8,7 +8,7 @@
     ]
   },
   "User": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": false
   },
   "AccessToken": {
@@ -28,31 +28,35 @@
     "public": false
   },
   "Jobs": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "user": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "invoices": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "services": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "contacts": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "PhoneNumber": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "location": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "company": {
+    "dataSource": "mysqlDs",
     "public": true
   }
 }

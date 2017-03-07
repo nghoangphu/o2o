@@ -1,0 +1,212 @@
+Unhandled error for request GET /e: Error: Cannot GET /e
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+Unhandled error for request GET /4: Error: Cannot GET /4
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #1
+Unhandled error for request GET /ttt: Error: Cannot GET /ttt
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+Unhandled error for request GET /es: Error: Cannot GET /es
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+Unhandled error for request GET /est: Error: Cannot GET /est
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+Unhandled error for request GET /apple-touch-icon-precomposed.png: Error: Cannot GET /apple-touch-icon-precomposed.png
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+Unhandled error for request GET /apple-touch-icon.png: Error: Cannot GET /apple-touch-icon.png
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+Unhandled error for request GET /apple-touch-icon-precomposed.png: Error: Cannot GET /apple-touch-icon-precomposed.png
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+Unhandled error for request GET /apple-touch-icon-precomposed.png: Error: Cannot GET /apple-touch-icon-precomposed.png
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+Unhandled error for request GET /apple-touch-icon.png: Error: Cannot GET /apple-touch-icon.png
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+Unhandled error for request GET /apple-touch-icon.png: Error: Cannot GET /apple-touch-icon.png
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #2
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #3
+error: Forever detected script was killed by signal: SIGKILL
+error: Script restart attempt #4
+Unhandled error for request GET /3000: Error: Cannot GET /3000
+    at raiseUrlNotFoundError (/home/ubuntu/o2o/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/ubuntu/o2o/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/o2o/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/o2o/node_modules/express/lib/router/index.js:618:15

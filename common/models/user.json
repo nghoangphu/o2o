@@ -1,9 +1,13 @@
 {
   "name": "user",
+  "plural": "users",
   "base": "User",
-  "plural":"users",
   "idInjection": true,
-  "properties": {},
+  "properties": {
+      "fcmID":{
+          "type":"string"
+      }
+  },
   "validations": [],
   "relations": {
     "jobs": {
