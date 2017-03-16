@@ -64,6 +64,9 @@
     "isInvoice": {
         "type": "Boolean"
     },
+    "isPaused": {
+        "type": "Boolean"
+    },
     "pos": {
         "type": "GeoPoint"
     }
